@@ -120,12 +120,12 @@ const Modal = () => {
             <div className={classes.input_field}>
               <Field
                 type="checkbox"
-                 className=""
+                className=""
                 checked={termValue}
                 onChange={termChangedHanler}
                 onBlur={termBlurHandler}
               />
-              Agree to terms
+              &nbsp; Agree to terms
               <br />
               {termInputHasError && (
                 <span className="error-text">Please check the box.</span>
