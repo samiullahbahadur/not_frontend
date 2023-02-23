@@ -5,7 +5,7 @@
 
 ![Desktop Servy](./src/assets/desktop_servy.jpg)
 
-### Modile Version
+### Modile Version Servy
 
 ![Mobile Servy](./src/assets/mobil_servy.jpg)
 
