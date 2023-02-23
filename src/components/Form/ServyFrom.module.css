@@ -8,13 +8,14 @@
   padding: 1rem;
   color: black;
   background-color: white;
-  box-shadow: 0 0 60px 30px #fff, 0 0 100px 60px #a0f, 0 0 100px 90px #0ff;
+  box-shadow: 0 0 60px 30px #ebe8e8ab, 0 0 100px 60px rgba(20, 14, 199, 0.87),
+    0 0 100px 90px #0ff;
 }
 
 .input_field {
   margin-bottom: 14px;
 }
-h5{
+h5 {
   text-align: center;
 }
 
@@ -54,20 +55,22 @@ button:disabled:active {
     padding: 1rem;
     color: black;
     background-color: white;
-    box-shadow: 0 0 60px 30px #fff, 0 0 100px 60px #a0f, 0 0 100px 90px #0ff;
+    box-shadow: 0 0 60px 30px #ebe8e8ab, 0 0 100px 60px rgba(20, 14, 199, 0.87),
+    0 0 100px 90px #0ff;
   }
 }
 @media screen and (max-width: 810px) {
   .modal {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 6rem;
     border-radius: 14px;
     padding: 1rem;
     color: black;
     background-color: white;
-    box-shadow: 0 0 60px 30px #fff, 0 0 100px 60px #a0f, 0 0 100px 90px #0ff;
+    box-shadow: 0 0 60px 30px #ebe8e8ab, 0 0 100px 60px rgba(20, 14, 199, 0.87),
+    0 0 100px 90px #0ff;
   }
 }
