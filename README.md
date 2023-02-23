@@ -1,6 +1,7 @@
 # Servy
 
-"Servy " this is a two-page web app built with ruby on rails,React.js and redux. The servy page show about List of servy info, the form page shows about select a sector.
+"Servy " this is two-page web app with full responsive built with ruby on rails,React.js and redux. The servy page show about List of servy info, the form page shows about select a sector.
+
 ## Screenshoots
 
 ![Desktop Servy](./src/assets/desktop_servy.jpg)
@@ -26,7 +27,6 @@
 - Redux
 - Ruby on Rils
 - Postgres
-
 
 ## Live Demo
 

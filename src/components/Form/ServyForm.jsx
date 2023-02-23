@@ -8,15 +8,13 @@ const Modal = () => {
   const [addUser] = useAddUserMutation();
   const validateName = (value) => {
     let error_msg;
-
     if (value === "") {
       error_msg = "please enter name";
     }
     return error_msg;
   };
   const validateSector = (value) => {
-    let error_msg;
-
+    let error_msg
     if (value === "") {
       error_msg = "please select a sector";
     }
@@ -24,7 +22,6 @@ const Modal = () => {
   };
   const validateTerm = (value) => {
     let error_msg;
-
     if (value === false) {
       error_msg = "please check the box";
     }
@@ -32,7 +29,7 @@ const Modal = () => {
   };
 
   return (
-    <FormCreate 
+    <FormCreate
       data={data}
       addUser={addUser}
       validateName={validateName}
