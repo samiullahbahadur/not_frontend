@@ -40,10 +40,6 @@
 
 - Project Setup with React Installations
 
-## Built With
-
-- React (A free and open-source front-end JavaScript library for building user interfaces based on UI components)
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
