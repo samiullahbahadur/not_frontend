@@ -15,7 +15,9 @@ const userApi = createApi({
     }),
     addUser: builder.mutation({
       query: (data) => {
+        console.log(data)
         return {
+          
           url: "/users",
           method: "POST",
           body: data,
