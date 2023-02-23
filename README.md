@@ -4,15 +4,11 @@
 
 ## Live Demo
 
-- [Live link](not-frontend-git-dev-samiullahbahadur.vercel.app
-  not-frontend-samiullahbahadur.vercel.app
-  not-frontend.vercel.app)
-  ).
+- [Live link](https://not-frontend-git-dev-samiullahbahadur.vercel.app/)
 
 ## BackEnd
 
 - [Backend link](https://github.com/samiullahbahadur/not_backend)
-  
 
 ### Features implemented so far are:
 
