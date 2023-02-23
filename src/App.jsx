@@ -1,11 +1,19 @@
-import { useState } from "react";
-import UserList from "./components/UserList";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/header/Header";
+import ServyList from "./components/Servy/ServyList";
+ import ServyFom from './components/Form/ServyForm'
 import "./App.css";
 function App() {
   return (
-    <div className="App">
-      <UserList />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/" exact element={<ServyList />} />
+          <Route path="form" element={<ServyFom />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

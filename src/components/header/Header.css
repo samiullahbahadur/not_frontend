@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px rgb(221, 221, 221);
+  padding: 5px 5%;
+  margin-bottom: 30px;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+a {
+  text-decoration: none;
+
+  color: rgb(178, 181, 191);
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+  list-style-type: none;
+}
+
+.active {
+  color: #fff;
+}
