@@ -2,7 +2,9 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const userApi = createApi({
   reducerPath: "user",
-  baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:3000/" }),
+  baseQuery: fetchBaseQuery({
+    baseUrl: "https://not-coding-challenge.onrender.com",
+  }),
   endpoints: (builder) => ({
     getUser: builder.query({
       query: () => {
