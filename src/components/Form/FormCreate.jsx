@@ -1,5 +1,6 @@
 import React from "react";
-import { Formik, Field,Form} from "formik";
+import { Formik, Field, Form } from "formik";
+import { useNavigate } from "react-router-dom";
 import SelectOptions from "./SelectOptions";
 
 import classes from "./ServyFrom.module.css";
@@ -11,6 +12,7 @@ const FormCreate = ({
   validateSector,
   validateTerm,
 }) => {
+  const navigate = useNavigate();
   return (
     <div className={classes.modal}>
       <h5>
@@ -26,6 +28,7 @@ const FormCreate = ({
         onSubmit={(values, { resetForm }) => {
           addUser({ ...values });
           resetForm({ values: "" });
+          navigate("/");
         }}
       >
         {({ errors, touched }) => (
