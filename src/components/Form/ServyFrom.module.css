@@ -27,6 +27,19 @@ h5 {
   color: white;
 }
 
+.bnt1 {
+  padding: 8px 20px;
+  border-radius: 14px;
+  background-color: rgb(15, 4, 4);
+  border: none;
+  color: white;
+}
+.bnt1  a{
+ text-decoration: none;
+ color: white;
+}
+
+
 button:hover,
 button:active {
   background-color: #33059e;
@@ -34,13 +47,11 @@ button:active {
   cursor: pointer;
 }
 
-button:disabled,
-button:disabled:hover,
-button:disabled:active {
-  background-color: #ccc;
-  color: #292929;
-  border-color: #ccc;
-  cursor: not-allowed;
+.bcontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
 }
 
 @media screen and (max-width: 530px) {
@@ -56,7 +67,7 @@ button:disabled:active {
     color: black;
     background-color: white;
     box-shadow: 0 0 60px 30px #ebe8e8ab, 0 0 100px 60px rgba(20, 14, 199, 0.87),
-    0 0 100px 90px #0ff;
+      0 0 100px 90px #0ff;
   }
 }
 @media screen and (max-width: 810px) {
@@ -71,6 +82,6 @@ button:disabled:active {
     color: black;
     background-color: white;
     box-shadow: 0 0 60px 30px #ebe8e8ab, 0 0 100px 60px rgba(20, 14, 199, 0.87),
-    0 0 100px 90px #0ff;
+      0 0 100px 90px #0ff;
   }
 }
