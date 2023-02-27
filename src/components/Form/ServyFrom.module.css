@@ -35,6 +35,14 @@ h5 {
   color: white;
    text-decoration: none;
 }
+.bnt1:hover {
+  padding: 8px 20px;
+  border-radius: 14px;
+  background-color: rgb(15, 4, 4);
+  border: none;
+  color: white;
+   text-decoration: none;
+}
 
 
 button:hover,
