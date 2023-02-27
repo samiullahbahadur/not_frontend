@@ -21,8 +21,24 @@
   display: flex;
   justify-content: end;
 }
-h4 {
-  text-align: center;
+.heading {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 10px;
+
+}
+.add{
+  padding: 5px 8px;
+  border-radius: 14px;
+  background-color: gray;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+.add:hover{
+  color: white;
+  background-color: rgb(26, 26, 79);
 }
 
 /* mobile version*/
@@ -37,7 +53,7 @@ h4 {
     color: black;
     background-color: white;
     box-shadow: 0 0 60px 30px #ebe8e8ab, 0 0 100px 60px rgba(20, 14, 199, 0.87),
-    0 0 100px 90px #0ff;
+      0 0 100px 90px #0ff;
   }
 }
 
@@ -51,6 +67,6 @@ h4 {
     color: black;
     background-color: white;
     box-shadow: 0 0 60px 30px #ebe8e8ab, 0 0 100px 60px rgba(20, 14, 199, 0.87),
-    0 0 100px 90px #0ff;
+      0 0 100px 90px #0ff;
   }
 }
