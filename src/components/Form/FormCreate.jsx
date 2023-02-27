@@ -1,8 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Formik, Field, Form } from "formik";
 import { useNavigate } from "react-router-dom";
 import SelectOptions from "./SelectOptions";
-
 import classes from "./ServyFrom.module.css";
 
 const FormCreate = ({
@@ -13,6 +13,7 @@ const FormCreate = ({
   validateTerm,
 }) => {
   const navigate = useNavigate();
+
   return (
     <div className={classes.modal}>
       <h5>
@@ -70,9 +71,12 @@ const FormCreate = ({
               </div>
             </div>
 
-            <div>
+            <div className={classes.bcontainer}>
               <button type="submit" className={classes.bnt}>
                 Save
+              </button>
+              <button className={classes.bnt1}>
+                <Link to="/">Back</Link>
               </button>
             </div>
           </Form>
