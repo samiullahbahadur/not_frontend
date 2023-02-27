@@ -75,9 +75,7 @@ const FormCreate = ({
               <button type="submit" className={classes.bnt}>
                 Save
               </button>
-              <button className={classes.bnt1}>
-                <Link to="/">Back</Link>
-              </button>
+                <Link to="/" className={classes.bnt1}>Back</Link>
             </div>
           </Form>
         )}
