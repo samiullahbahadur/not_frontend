@@ -1,4 +1,5 @@
 import React from "react";
+
 import FormCreate from "./FormCreate";
 import { useGetSectorQuery } from "../../store/sectorSlice";
 import { useAddUserMutation } from "../../store/userSlice";
@@ -14,7 +15,7 @@ const Modal = () => {
     return error_msg;
   };
   const validateSector = (value) => {
-    let error_msg
+    let error_msg;
     if (value === "") {
       error_msg = "please select a sector";
     }
